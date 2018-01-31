@@ -1,7 +1,7 @@
 #
 # hw0pr2.py ~ phonebook analysis
 #
-# Name(s): Jason Jiang, Kenny Parck, Rory Zhao
+# Name(s): Jason Jiang, Kenny Park, Rory Zhao
 #
 
 #
