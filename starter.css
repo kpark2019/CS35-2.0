@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+h1 {
+    color: black;
+}
+p {
+    color: black;
+}
