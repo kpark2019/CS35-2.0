@@ -184,6 +184,8 @@ Mention briefly how you handled this situation!?
 
 Past those labels (just labels) here:[1 0 0 0 0 1 1 0 1 1 0 1 0 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 1 1 1 0 0 1
  1 0 1 1 0 0 0]
+The partially erased ones and the ones that had a lot missing from the chart were dropped.
+Also the other data that was irrelevant were dropped also. 
 You'll have 10 lines:
 
 
