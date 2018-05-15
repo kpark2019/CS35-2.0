@@ -28,13 +28,13 @@ print ("Paired!")
 #the graph of mindwave
 while True:
     #time.sleep(.5)
-    print "Attention: %s, Meditation: %s, Raw: %s" % (headset.attention, headset.meditation, headset.raw_value)
+    print "Attention: %s" % (headset.attention)
     now = time.time()
     duration = now - then
     duration_sec = duration % 60
-    x = str(headset.raw_value)
+    x = str(headset.attention)
     y = str(duration_sec)
-    plt.scatter(x, y)
+    plt.plot(x, y)
     plt.pause(1)
 
 
