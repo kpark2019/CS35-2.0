@@ -30,7 +30,7 @@ while mindwave.status != "Paired!":
 print ("Paired!")
 
 while True:
-    print "Attention: %s, Meditation: %s" % (headset.attention)
+    print "Attention: %s" % (headset.attention)
 neuropy.stop()
 
 #the graph of mindwave
