@@ -1,4 +1,5 @@
-# Connect to Mindwave, then run to get data
+
+# Connect to Mindwave, then call neuropy.start() to get data. neuropy.stop() to stop
 from NeuroPy import NeuroPy
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,11 +30,12 @@ while mindwave.status != "Paired!":
         print ("Retrying...")
 print ("Paired!")
 
+# Raw data of the attention
 while True:
     print "Attention: %s" % (headset.attention)
 neuropy.stop()
 
-#the graph of mindwave
+#the graph of mindwave attention
 while True:
     #time.sleep(.5)
     print "Attention: %s" % (headset.attention)
