@@ -1,8 +1,11 @@
 # Connect to Mindwave, then run to get data
+from NeuroPy import NeuroPy
 import numpy as np
 import matplotlib.pyplot as plt
 import mindwave, time
 
+neuropy = NeuroPy() 
+neuropy.start()
 
 then = time.time()
 now = time.time()
@@ -26,6 +29,10 @@ while mindwave.status != "Paired!":
         print ("Retrying...")
 print ("Paired!")
 
+while True:
+    print "Attention: %s, Meditation: %s" % (headset.attention)
+neuropy.stop()
+
 #the graph of mindwave
 while True:
     #time.sleep(.5)
@@ -37,7 +44,7 @@ while True:
     y = str(duration_sec)
     plt.plot(x, y)
     plt.pause(1)
-
+    
 
 
 while True:
