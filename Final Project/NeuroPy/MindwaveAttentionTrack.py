@@ -1,5 +1,6 @@
-
-# Connect to Mindwave, then call neuropy.start() to get data. neuropy.stop() to stop
+# Connect to Mindwave to computer first
+# Call neuropy.start() to get data.
+# Neuropy.stop() to stop
 from NeuroPy import NeuroPy
 import numpy as np
 import matplotlib.pyplot as plt
